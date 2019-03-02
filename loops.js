@@ -11,7 +11,12 @@ function forLoop(array){
 
 }
 
-function forLoop(array) {
+function whileLoop(n) {
+  while (n === 0);
+  console.log whileLoop
+}
+
+  
    for ( let i = 0; i < 25; i++) {
      if (i === 1) {
        array.push(`I am 1 strange loop.`)
