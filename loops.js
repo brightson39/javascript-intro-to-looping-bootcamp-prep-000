@@ -40,9 +40,14 @@ function forLoop(array) {
 
  
  function doWhileLoop(num) {
-  let num = 1;
-  do{
+    do{
+    console.log("I run once regardless.");
+} while (incrementVariable() < 5);
+    
     console.log (`i run once regardless ${num} time`);
+    
+    
+    
   }
    
   }
