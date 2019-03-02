@@ -47,13 +47,4 @@ function forLoop(array) {
     console.log (`i run once regardless ${num} time`);
     
     
-    
-  }
-   
-  }
-
-   do {
-    array.pop();
-  } while (array.length > -1 && maybeTrue());
-    return array;
-}
+ 
