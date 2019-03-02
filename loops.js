@@ -57,9 +57,13 @@ function incrementVariable() {
   return x;
 }
 
- function doWhileLoop(n){
+ function doWhileLoop(num){
+ }
+   function incrementVariable(){
+     num = num + 1;
+   }
   do{
     console.log('I run once regardless')
-  } while(incrementVariable() <= n);
+   }while(incrementVariable() <= num);
 }
 
