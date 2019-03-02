@@ -1,69 +1,30 @@
-function forLoop(array) {
-   for ( let i = 0; i < 25; i++) {
-     if (i === 1) {
-       array.push(`I am 1 strange loop.`)
-     } else {
-       array.push(`I am ${i} strange loops.`)
-     }
-  }
-  return array;
-}
-
- function whileLoop(n) {
-  let countdown = n;
-
-     while (countdown > 0) {
-      console.log(--countdown)
+function forLoop(array){
+  for(let i = 0; i < 25; i++){
+    if (i === 1){
+      array.push(`I am ${i} strange loop.`);
+    }    
+    else {
+      array.push(`I am ${i} strange loops.`);
     }
-    return "done";
   }
-
- function doWhileLoop(array) {
-  function maybeTrue() {
-    return Math.random() >= 0.5
+  return array
+}
+function whileLoop(n) {
+  while(n > 0){
+    console.log(--n);
   }
-
-   do {
-    array.pop();
-  } while (array.length > -1 && maybeTrue());
-    return array;
-}
-
-
-
-unction forLoop(foo){
-    for(var i = 0; i < 25; i++){
-      if(i === 1){
-        foo.push("I am 1 strange loop.")
-      }
-      else{
-        foo.push(`I am ${i} strange loops.`)
-      }
-    }
-    return foo
-}
-
- function whileLoop(num){
-  while(num > 0){
-    num--;
-    console.log(num)
-  }
-  return "done"
-}
-
- var x = 0;
-function incrementVariable() {
-  x = x + 1;
-  return x;
+  return "done";
 }
 
  function doWhileLoop(num){
- }
-   function incrementVariable(){
-     num = num + 1;
-   }
-  do{
-    console.log('I run once regardless')
-   }while(incrementVariable() <= num);
-}
+  var i = 0;
 
+   function incrementVariable() {
+    i = i + 1;
+    return i;
+  }
+  do {
+    console.log("I run once regardless.");
+  } while (incrementVariable() < num);
+
+ } 
